@@ -1,0 +1,23 @@
+{
+  "name": "filepond-plugin-drag-reorder",
+  "version": "0.1.0",
+  "description": "A plugin for FilePond to drag and reorder items.",
+  "main": "./dist/index.js",
+  "browser": "./dist/index.min.js",
+  "scripts": {
+    "build": "rollup -c && terser -c -m --comments /license/i -o ./dist/index.min.js ./dist/index.js",
+    "dev": "rollup -c -w"
+  },
+  "author": "Yong Quan Lim <yqlim2394@gmail.com",
+  "license": "MIT",
+  "peerDependencies": {
+    "filepond": "^4.7.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.7.1",
+    "rollup": "^1.26.3",
+    "rollup-plugin-babel": "^4.3.3",
+    "terser": "^4.3.9"
+  }
+}
