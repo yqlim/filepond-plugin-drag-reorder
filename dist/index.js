@@ -41,6 +41,7 @@
         });
       }
 
+      dragging = false;
       currentItem = null;
       currentRoot = null;
     });
@@ -73,13 +74,12 @@
         return;
       }
 
-      var DID_LOAD_ITEM = function DID_LOAD_ITEM(obj) {
+      var DID_LOAD_ITEM = function DID_LOAD_ITEM(_ref) {
         var _this2 = this;
 
-        var root = obj.root,
-            props = obj.props;
-        var id = props.id;
-        var item = query('GET_ITEM', id);
+        var root = _ref.root,
+            props = _ref.props;
+        var item = query('GET_ITEM', props.id);
 
         var isImage = function isImage(file) {
           _newArrowCheck(this, _this2);

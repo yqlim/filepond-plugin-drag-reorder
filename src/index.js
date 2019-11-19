@@ -25,6 +25,7 @@ export default function(fpAPI){
       });
     }
 
+    dragging = false;
     currentItem = null;
     currentRoot = null;
   });
@@ -57,10 +58,8 @@ export default function(fpAPI){
       return;
     }
 
-    const DID_LOAD_ITEM = function(obj){
-      const { root, props } = obj;
-      const { id } = props;
-      const item = query('GET_ITEM', id);
+    const DID_LOAD_ITEM = function({ root, props }){
+      const item = query('GET_ITEM', props.id);
       const isImage = file => /^image/.test(file.type);
 
       if (!item || !isImage(item.file)){

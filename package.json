@@ -1,7 +1,7 @@
 {
   "name": "filepond-plugin-drag-reorder",
-  "version": "0.1.0",
-  "description": "A plugin for FilePond to drag and reorder items.",
+  "version": "1.0.0",
+  "description": "A plugin for FilePond that uses HTML drag and drop to reorder items.",
   "main": "./dist/index.js",
   "browser": "./dist/index.min.js",
   "scripts": {
