@@ -11,7 +11,7 @@
   "author": "Yong Quan Lim <yqlim2394@gmail.com",
   "license": "MIT",
   "peerDependencies": {
-    "filepond": "^4.7.4"
+    "filepond": "^4.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
