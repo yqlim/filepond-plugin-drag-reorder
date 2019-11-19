@@ -19,5 +19,17 @@
     "rollup": "^1.26.3",
     "rollup-plugin-babel": "^4.3.3",
     "terser": "^4.3.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yqlim/filepond-plugin-drag-reorder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yqlim/filepond-plugin-drag-reorder/issues"
+  },
+  "homepage": "https://github.com/yqlim/filepond-plugin-drag-reorder#readme",
+  "keywords": [
+    "filepond",
+    "plugin"
+  ]
 }
