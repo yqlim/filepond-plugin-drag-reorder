@@ -8,7 +8,7 @@
     "build": "rollup -c && terser -c -m --comments /license/i -o ./dist/index.min.js ./dist/index.js",
     "dev": "rollup -c -w"
   },
-  "author": "Yong Quan Lim <yqlim2394@gmail.com",
+  "author": "Yong Quan Lim <23203360+yqlim@users.noreply.github.com>",
   "license": "MIT",
   "peerDependencies": {
     "filepond": "^4.5.0"
